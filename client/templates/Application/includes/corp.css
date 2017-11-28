@@ -1,0 +1,24 @@
+.title {
+  /*color: #2A9FFC;*/
+  color: #2477BB;
+}
+.page-margin {
+  padding-top: 80px;
+}
+.well-height{
+    min-height: 300px;
+}
+.well-height-about{
+    min-height: 400px;
+}
+.parallax {
+    /* The image used */
+    background-image: url("laboratoy.jpg");
+    /* Set a specific height */
+    height: 250px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

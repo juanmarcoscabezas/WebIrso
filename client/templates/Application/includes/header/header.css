@@ -1,0 +1,26 @@
+.navbar-nav li a {
+    line-height: 80px;
+    height: 80px;
+    padding-top: 0;
+}
+.navbar-drop{
+  height: 80px;
+}
+.navbar-brand{
+  padding-top: 0;
+}
+.navbar-drop{
+  padding-top: 15px;
+}
+.img-logo{
+  width: 80px;
+}
+.visited{
+  color: #2A9FFC !important;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #2477BB;
+}
+.image-icon:hover {
+  filter: opacity(.8);
+}
