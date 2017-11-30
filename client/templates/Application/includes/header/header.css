@@ -13,7 +13,10 @@
   padding-top: 15px;
 }
 .img-logo{
-  width: 80px;
+  width: 200px;
+}
+.img-logo-texto{
+  width: 150px;
 }
 .visited{
   color: #2A9FFC !important;

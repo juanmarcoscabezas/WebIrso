@@ -8,16 +8,16 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand image-icon {{#if currentRouteIs 'home'}}active{{/if}}" href="{{pathFor 'home'}}">
-          <img src="logo.png" class="img-responsive img-logo">
+          <img src="logoTexto.png" class="img-responsive img-logo">
         </a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li class="{{#if currentRouteIs 'about'}}visited{{/if}}"><a href="{{pathFor 'about'}}">Quiénes somos</a></li>
-          <li class="{{#if currentRouteIs 'services'}}visited{{/if}}"><a href="{{pathFor 'services'}}">Servicios</a></li>
-          <li class="{{#if currentRouteIs 'contact'}}visited{{/if}}"><a href="{{pathFor 'contact'}}">Contacto</a></li>
+          <li class="{{#if currentRouteIs 'about'}}visited{{/if}}"><a href="{{pathFor 'about'}}">QUIÉNES SOMOS</a></li>
+          <li class="{{#if currentRouteIs 'services'}}visited{{/if}}"><a href="{{pathFor 'services'}}">SERVICIOS</a></li>
+          <li class="{{#if currentRouteIs 'contact'}}visited{{/if}}"><a href="{{pathFor 'contact'}}">CONTACTO</a></li>
           {{#if currentUser}}
-            <li class="{{#if currentRouteIs 'orders'}}visited{{/if}}"><a href="{{pathFor 'orders'}}">Pedidos</a></li>
+            <li class="{{#if currentRouteIs 'orders'}}visited{{/if}}"><a href="{{pathFor 'orders'}}">PEDIDOS</a></li>
           {{/if}}
         </ul>
         <ul class="nav navbar-nav navbar-right">

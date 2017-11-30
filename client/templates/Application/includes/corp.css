@@ -22,3 +22,48 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.backgroundSede {
+    background-image: url('sede.jpeg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height:200px;
+}
+.backgroundEstudios {
+    background-image: url('estudios4.jpeg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height:200px;
+}
+.backgroundNosotros {
+    background-image: url('nosotros.jpeg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height:200px;
+}
+.center-h1 {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align:center;
+  vertical-align: middle;
+}
+.image-home:hover {
+  filter: saturate(2);
+}
+.nl {
+    text-decoration:none !important;
+}
