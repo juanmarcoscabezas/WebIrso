@@ -6,31 +6,30 @@
           <div class="panel-heading">
             <h4 class="panel-title">
               <div class="row">
-                <div class="col-sm-6">
-                  <a data-toggle="collapse" href="#{{id}}">
-                    <h4>{{ title }}</h4>
+                <div class="col-sm-9">
+                  <a data-toggle="collapse" href="#{{_id}}" class="{{#if checked}}checked{{/if}} {{#if send}}send{{/if}}">
+                    <h4>{{ title }} <small class="{{#if send}}send{{/if}}"> {{ date }} </small></h4>
                   </a>
                 </div>
-                <div class="col-sm-6">
-                  <a class="btn btn-danger pull-right" href="#">
-                    <i class="fa fa-times"></i>
-                  </a>
-                  <a class="btn btn-warning pull-right" href="#">
-                    <i class="fa fa-pencil"></i>
-                  </a>
-                  <a class="btn btn-primary pull-right" href="#">
-                    <i class="fa fa-plus"></i>
-                  </a>
-                  </div>
+                <div class="col-sm-3">
+                  <span class="padding-sides pull-right">
+                    <a class="btn btn-danger" id="delete" >
+                      <i class="fa fa-times"></i>
+                    </a>
+                  </span>
+                  <label class="padding-sides pull-right"><input type="checkbox" checked="{{send}}" id="send">Enviado</label>
+                  <label class="padding-sides pull-right"><input type="checkbox" checked="{{checked}}" id="check">Revisado</label>
+                </div>
               </div>
             </h4>
           </div>
-          <div class="panel-collapse collapse" id="{{id}}">
+          <div class="panel-collapse collapse" id="{{_id}}">
             <div class="panel-body">
               <table class="table">
                 <thead>
                   <tr>
-                    <th>Insumo</th>
+                    <th>Código</th>
+                    <th>Producto</th>
                     <th>Cantidad</th>
                   </tr>
                 </thead>

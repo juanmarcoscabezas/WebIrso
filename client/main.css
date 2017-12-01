@@ -1,5 +1,5 @@
 h1,h2,h3,p {
-  font-size: 16px;
+  /*font-size: 16px;*/
   font-family: Roboto;
 }
 .nopadding {
@@ -11,6 +11,10 @@ h1,h2,h3,p {
 .nopadding-right{
     padding-right: 0 !important;
 }
+.padding-sides{
+    padding-left: 5px;
+    padding-right: 5px;
+}
 .background-no-home {
     background-image: url('estudios2.jpeg') ;
     background-position: center;
@@ -20,4 +24,10 @@ h1,h2,h3,p {
     -moz-background-size: cover;
     -o-background-size: cover;
     height:100px;
+}
+.checked{
+  text-decoration:line-through;
+}
+.send{
+  color: red;
 }

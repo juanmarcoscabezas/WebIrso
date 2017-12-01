@@ -1,0 +1,44 @@
+<template name="contact">
+  <div class="container-fluid page-margin">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="background-no-home ">
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-5">
+        <br>
+        <h1>Contáctenos</h1>
+        <p>Por consultas o sugerencias, complete el formulario a continuación y
+          recibirá una pronta respuesta. ¡Estamos para atenderlo!
+        </p>
+        <br>
+        {{#autoForm collection="Contact" id="insertContactForm" type="insert"}}
+         <fieldset>
+           {{> afQuickField name='name'}}
+           {{> afQuickField name='email'}}
+           {{> afQuickField name='phone'}}
+           {{> afQuickField name='about'}}
+           {{> afQuickField name='message'}}
+         </fieldset>
+         <button type="submit" class="btn btn-primary">Enviar</button>
+       {{/autoForm}}
+    </div>
+      <div class="col-sm-5">
+        <br>
+        <h1>Nuestra sede</h1>
+        <br>
+        <div class="map-container">
+            {{> googleMap  name="contactMap" options=exampleMapOptions}}
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <!--div class="row">
+      {{> quickForm collection="Contact" id="insertBookForm" type="insert"}}
+    </div-->
+  </div>
+</template>
