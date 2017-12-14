@@ -12,11 +12,8 @@
     min-height: 400px;
 }
 .parallax {
-    /* The image used */
     background-image: url("laboratoy.jpg");
-    /* Set a specific height */
     height: 250px;
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,7 +30,7 @@
     height:200px;
 }
 .backgroundEstudios {
-    background-image: url('estudios4.jpeg') ;
+    background-image: url('examenMama.jpeg') ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,7 +40,7 @@
     height:200px;
 }
 .backgroundNosotros {
-    background-image: url('nosotros.jpeg') ;
+    background-image: url('about-header.jpeg') ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,7 +59,7 @@
   vertical-align: middle;
 }
 .image-home:hover {
-  filter: saturate(2);
+  filter: opacity(0.9);
 }
 .nl {
     text-decoration:none !important;

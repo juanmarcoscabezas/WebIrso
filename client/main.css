@@ -15,15 +15,25 @@ h1,h2,h3,p {
     padding-left: 5px;
     padding-right: 5px;
 }
-.background-no-home {
-    background-image: url('estudios2.jpeg') ;
+.background-about {
+    background-image: url('about-header.jpeg') ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    height:100px;
+    height:150px;
+}
+.background-services {
+    background-image: url('services-header.jpeg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height:150px;
 }
 .checked{
   text-decoration:line-through;
