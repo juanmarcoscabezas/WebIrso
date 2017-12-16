@@ -1,9 +1,12 @@
 Meteor.startup(function() {
-  GoogleMaps.load();
+  GoogleMaps.load({ key: 'AIzaSyCjHziMsX6PH5WDm7uC6YDmY6ldcnDkUqw' });
 });
 
+GoogleMaps.load({ key: 'AIzaSyCjHziMsX6PH5WDm7uC6YDmY6ldcnDkUqw' });
+
+
 Template.contact.onRendered(function() {
-  GoogleMaps.load({ v: '3', key: 'AIzaSyCmpMvulMwpoW0jY0WVj8eeS2NtnmYjkGc', libraries: 'geometry,places' });
+  GoogleMaps.load({ v: '3', key: 'AIzaSyCjHziMsX6PH5WDm7uC6YDmY6ldcnDkUqw', libraries: 'geometry,places' });
 });
 
 Template.contact.helpers({
@@ -25,7 +28,9 @@ Template.contact.onCreated(function() {
     // Add a marker to the map once it's ready
     var marker = new google.maps.Marker({
       position: map.options.center,
-      map: map.instance
+      map: map.instance,
+      title: 'Instituto Radiológico del Sur Occidente'
     });
+    marker.setMap(map);
   });
 });
