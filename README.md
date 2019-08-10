@@ -1,10 +1,12 @@
 # IRSO
 
+## Puedes mirar el proyecto [AQUÍ](https://irso.herokuapp.com/servicios)
+
 ## Aplicación web creada para la empresa IRSO Tumaco
 
-Este proyecto es un proyecto ejemplo para realizar la administración de insumos para la empresa.
+## Desarrollado en Meteor.js
 
-Puedes mirar el proyecto [AQUÍ](https://irso.herokuapp.com/servicios)
+Este proyecto es un proyecto ejemplo para realizar la administración de insumos para la empresa.
 
 El proyecto está disponible en: https://irso.herokuapp.com/
 
